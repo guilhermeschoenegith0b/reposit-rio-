@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #00ff4c;
+            padding: 40px 20px;
+        }
+        .card{
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 30px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+        }
+        h2{
+            font-size: 16px;
+            color: #4478ff;
+            margin-bottom: 6px;
+        }
+        p{
+            font-size: 14px;
+            color: #fffb00;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+        hr{
+            border: none;
+            border-top: 1px dashed #ff0000;
+            margin-bottom: 20px;
+
+        }
+      label{
+        display: block;
+        font-size: 13px;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: aqua;
+      }
+      input,
+      select,
+      textarea{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 14px;
+        border: 1px solid #4c00ff;
+        border-radius: 6px;
+        font-size: 14px;
+      }
+      button{
+        background-color: black;
+        color: red;
+        border: none;
+        padding: 10px 24px;
+       border-radius: 6px;
+       font-size: 14px;
+       cursor: pointer;
+      }
+      button:hover{
+        background-color: antiquewhite;
+      }
+    </style>
+</head>
+<body>
+    <div class="card">
+         <h2>Exercio 2-- Estilizar os campos</h2>
+         <p>oi</p>
+         <hr>
+         <form>
+            <label>Nome</label>
+            <input type="text" placeholder="Seu nome">
+
+            <label>E-mail</label>
+            <input type="text" placeholder="seu@email.com">
+
+            <label>Assunto</label>
+            <select>
+                <option>Orçamento</option>
+                <optio>Duvida</option>
+                    <optio>outro</option>
+            </select>
+
+            <label>Mensagem</label>
+            <textarea rows="4" placeholder="Digite sua Mensagem"></textarea>
+
+            <button type="submit">enviar Mensagem</button>
+
+         </form>
+    </div>
+</body>
+</html>
